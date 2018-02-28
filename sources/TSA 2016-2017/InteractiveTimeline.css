@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+	body {
+	font: normal 16px/1.5 "Arial", sans-serif;
+	background:rgb(157,34,60);
+	color:#fff;
+	overflow-x: hidden;
+	padding-bottom: 50px;
+}
+	/* intro section */	
+	
+	.intro {
+	background:rgb(157,34,60);
+	padding: 100px 0;
+	}
+	
+	.container {
+		width:90%;
+		max-width: 1200px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	h1 {
+		font-size: 2.5rem;
+	}
+	
+	/* timeline */
+	
+	/* color scheme for background here */
+.timeline ul {
+	background:rgb(157,34,60) ;
+	padding: 50px 0;
+}
+		
+	.timeline ul li {
+  		list-style-type: none;
+  		position: relative;
+  		width: 7px;
+  		margin: 0 auto;
+  		padding-top: 50px;
+  		background: #fff;
+	}
+ 
+	.timeline ul li div {
+		position: relative;
+		bottom: 0;
+		width: 400px;
+		padding: 15px;
+		background:rgb(114,51,98) ;
+	}
+		
+	.timeline ul li div::before {
+		content: '';
+		position: absolute;
+		bottom: 7px;
+		width: 0;
+		height: 0;
+		border-style: solid;
+	}
+	
+	.timeline ul li:nth-child(odd) div {
+		left: 45px;
+	}
+	.timeline ul li:nth-child(odd) div::before {
+		left: -15px;
+		border-width: 8px 16px 8px 0;
+		border-color: transparent rgb(114,51,98) transparent transparent;
+	}
+	
+	.timeline ul li:nth-child(even) div { 
+	left: -439px;
+	}
+	
+	.timeline ul li:nth-child(even) div::before {
+		right: -15px;
+		border-width: 8px 0 8px 16px;
+		border-color: transparent transparent transparent rgb(114,51,98) ;
+	}
+	
+	time {
+		display: block;
+		font-size: 1.2rem;
+		font-weight: bold;
+		margin-bottom: 8px;
+	}
