@@ -130,7 +130,7 @@ li a{
 	color: #295D9B;
 }
 
- #section-d .box-5, #section-d .box-6{
+#section-d .box-4, #section-d .box-5, #section-d .box-6{
 	background: #f9f9f9;
 	color: #295D9B;
 	
@@ -161,18 +161,21 @@ li a{
 	width:33%;
 }
 
-
+#section-d .box-3{
+	color:#295D9B
+	width:33%;
+}
 
 #section-d .box-5{
 	background-image: url("../Pictures used in website/random clouds.jpg");
 	background-size: cover;
-	width: 50%;
+	width: 33%;
 }
 
 #section-d .box-6{
 	background-image: url("../Pictures used in website/Pictures for Title Page Background/Virtual Reality Picture.jpg");
 	background-size: cover;
-	width: 50%;
+	width: 33%;
 }
 
 #section-e .box-7{
