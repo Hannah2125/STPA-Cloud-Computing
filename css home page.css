@@ -133,7 +133,7 @@ li a{
 #section-d .box-4, #section-d .box-5, #section-d .box-6{
 	background: #f9f9f9;
 	color: #295D9B;
-	background-image:url("../Pictures used in website/random clouds.jpg")
+	
 }
 
 #section-e .box-7, #section-e .box-8{
@@ -162,7 +162,7 @@ li a{
 }
 
 #section-d .box-4{
-	background-image: url("../Pictures used in website/random clouds.jpg");
+	background-image: url("../../wedsite steelas/pictures/ACTUAL CLOUD BACKGROUND THE END.jpg");
 	background-size: cover;
 	width: 33%;
 }
